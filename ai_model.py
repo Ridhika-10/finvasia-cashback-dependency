@@ -14,13 +14,13 @@ def saving_trigger(data):
     spending = data.get("spending", 0)
 
     if spending > 5000:
-        return "⚠️ High spending! Save at least ₹500 today."
-    return "✅ You're doing well!"
+        return " High spending! Save at least ₹500 today."
+    return " You're doing well!"
 
 def milestones(score):
     if score > 70:
-        return "🏆 Wealth Master"
+        return " Wealth Master"
     elif score > 40:
-        return "🥈 Smart Saver"
+        return " Smart Saver"
     else:
-        return "🥉 Beginner"
+        return " Beginner"
